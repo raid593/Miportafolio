@@ -1,0 +1,5 @@
+.title__container .title__network{
+    Display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }

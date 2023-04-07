@@ -11,6 +11,21 @@ coloque nas sessões indicadas*/
    --cor-de-link: #000;
 }
 
+.foto1{
+    width: 50px;
+    height: 50px;
+}
+
+.title__profile{
+    width: 368px;
+    height: 368px;
+}
+
+.title__container .title__network{
+    padding: 0 0 0 0;
+    margin: 0 50px 0 0;
+}
+
 body {
     box-sizing: border-box;
     background-color: var(--cor-de-fundo) ;
@@ -19,6 +34,7 @@ body {
     padding: 0;
     line-height: 1;
 }
+
 ol, ul,li {
     list-style: none;
 }
@@ -47,7 +63,35 @@ section.menu{
 
 /*Sección Title*/
 
-section.title{
+body{
+    background-image: url(3696601.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+
+.experiencie__box{
+    on:
+  push:
+  schedule:
+    - cron: "0 * * * *"
+
+jobs:
+  external_info:
+    runs-on: ubuntu-latest
+    name: Get external info
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Get all projects create during the Challenge Iniciante en Programación - Decodificador
+      uses: gautamkrishnar/blog-post-workflow@master
+      with:
+        comment_tag_name: CHANNEL_PROJECTS
+        max_post_count: 100000
+        feed_list: "https://github-feed-generator-theta.vercel.app/api/topic/challengeonelogicalatam"
+        template: "$newline| [<img width='500px' src='https://opengraph.githubassets.com/cf9f1db04b6e4e2b7a984902d69b889f717d09cb94b8b4296ffffc16d0c73120/$title'/>]($url) "
 
 }
 
