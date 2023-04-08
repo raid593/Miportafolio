@@ -14,16 +14,22 @@
     <link rel="stylesheet" href="experience/experience-box.css">
     <link rel="stylesheet" href="experience/experience.css">
     <link rel="stylesheet" href="hobbies/hobbies.css">
+    <link rel="stylesheet" href="hobbies/hobies-linea.css">
+    <link rel="stylesheet" href="hobbies/hobiies-box.css">
+    <link rel="stylesheet" href="hobbies/hobbies-name.css">
+    <link rel="stylesheet" href="hobbies/hobbies-ul.css">
     <link rel="stylesheet" href="menu/menu-header.css">
     <link rel="stylesheet" href="menu/menu-list-item.css">
     <link rel="stylesheet" href="menu/menu-list.css">
     <link rel="stylesheet" href="menu/menu.css">
     <link rel="stylesheet" href="skills/skills-line.css">
     <link rel="stylesheet" href="skills/skills.css">
+    <link rel="stylesheet" href="skills/skills-name.css">
+    <link rel="stylesheet" href="skills/skills-ul.css">
+    <link rel="stylesheet" href="skills/skills-box.css">
     <link rel="stylesheet" href="title/title-div.css">
     <link rel="stylesheet" href="title/title__container.css">
     <link rel="stylesheet" href="title/title__network.css">
-    <link rel="stylesheet" href="hobbies/hobies-linea.css">
     <link rel="stylesheet" href="cursos-academicos/academic-courses.css">
     
 
@@ -100,10 +106,11 @@
     <section class="skills" id="skills">
         <h3 class="skills__title">Skills</h3>
             <div class="skills__line">
+                
                 <div class="skills__box">
                     <ul>
                         <li class="skills__img"><img src="assets\htlm.png"></li>
-                        <li class="skills__name"> HTML 5</li>
+                        <li class="skills__name">HTML5</li>
                     </ul>
                 </div>
 
@@ -253,29 +260,7 @@
             </div>
         </div>  
 
-        <div class="experiencie__box">
-        
-            on:
-  push:
-  schedule:
-    - cron: "0 * * * *"
-
-jobs:
-  external_info:
-    runs-on: ubuntu-latest
-    name: Get external info
-
-    steps:
-    - name: Checkout
-      uses: actions/checkout@v2
-
-    - name: Get all projects create during the Challenge Iniciante en Programación - Decodificador
-      uses: gautamkrishnar/blog-post-workflow@master
-      with:
-        comment_tag_name: CHANNEL_PROJECTS
-        max_post_count: 100000
-        feed_list: "https://github-feed-generator-theta.vercel.app/api/topic/challengeonelogicalatam"
-        template: "$newline| [<img width='500px' src='https://opengraph.githubassets.com/cf9f1db04b6e4e2b7a984902d69b889f717d09cb94b8b4296ffffc16d0c73120/$title'/>]($url) "
+       <img width='500px' src='https://opengraph.githubassets.com/cf9f1db04b6e4e2b7a984902d69b889f717d09cb94b8b4296ffffc16d0c73120/$title'/>]($url) "
 
             <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
 

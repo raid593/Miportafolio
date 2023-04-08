@@ -1,0 +1,5 @@
+.hobbies__box{
+    display: flex;
+    align-items: flex-end;
+    width: 15%;
+}
