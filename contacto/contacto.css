@@ -1,6 +1,4 @@
 .formcontato{
-    width: 940px;
-    margin: 0 auto;
     background-color: azure;
 }
 
@@ -83,11 +81,13 @@
 .formcontato__esquerda{
     align-items: center;
     display: flex;
+    justify-content: center;
 }
 
 .formcontato__img{
-    width: 430px;
-    margin: 30px;
+    width: 80%;
+    height: 80%;
+    padding: 15px;
 }
 
 .footer{

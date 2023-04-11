@@ -1,0 +1,82 @@
+/*Tablet*/
+@media (min-width: 425px) {
+
+    .body{
+        margin: 10px 5px;
+    }
+
+/* Menú */
+.menu {
+    width: auto;
+    flex-direction: column;
+}
+
+
+/*title*/
+.title__div{
+    width: auto;
+    flex-direction: column;
+}
+
+/*Skills*/
+.skills {
+    width: auto;
+    flex-direction: column;
+}
+
+/*Hobbies*/
+.hobbies{
+    width: auto;
+    flex-direction: column;
+}
+
+/*Formación Académica*/
+.academic{
+    width: auto;
+    flex-direction: column;
+}
+
+/*Experiencia Profesional*/
+.experience {
+    width: auto;
+    flex-direction: column;
+}
+
+/*Formación Académica*/
+.contacto {
+    width: auto;
+    flex-direction: column;
+}
+
+.footer{
+    width: auto;
+    flex-direction: column;
+} 
+}
+
+
+/*Mobile*/
+@media (min-width: 768px) {
+
+    
+/*Menu*/
+
+/*Titulo*/
+
+/*Sección sobre mi*/
+
+/*Skills*/
+
+/*Hobbies*/
+ 
+/*Formación Académica*/
+
+/*Experiencia Profesional*/
+
+ /*Contacto*/
+
+/*Footer*/
+
+}
+
+
