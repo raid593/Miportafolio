@@ -29,6 +29,16 @@ body {
     padding-right: calc((100% - 970px)/2);
 }
 
+@media (max-width: 768px) {
+
+    .body{
+        padding-left: calc((100% - 600px)/2);
+        padding-right: calc((100% - 600px)/2);
+    }
+}
+    
+
+    
 ol,
 ul,
 li {
