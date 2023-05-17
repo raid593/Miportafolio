@@ -3,6 +3,11 @@
     height: 50px;
 }
 
+.experience__img{
+    width: 100%;
+}
+
+
 .title__profile {
     width: 30%;
     height: 30%;
@@ -28,7 +33,7 @@ body {
     padding-left: calc((100% - 970px)/2);
     padding-right: calc((100% - 970px)/2);
 }
-
+    
 ol,
 ul,
 li {
@@ -38,4 +43,155 @@ li {
 a {
     text-decoration: none;
     color: var(--cor-de-link);
+}
+
+@media screen and (max-width: 800px) {
+    .menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;     
+    }
+
+    .title {
+        width: auto;
+        margin: 3%;
+    }
+
+    .about__container{
+        width: auto;
+        margin: 3%;
+    }
+
+    .formcontato__contacto{
+        margin: 3%;
+        }    
+
+    .footer{
+        margin: 0 5%;
+        }
+}
+    
+@media screen and (max-width: 425px) {
+    .menu {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .menu__list {
+        flex-wrap: wrap;
+        padding: 0 5%;
+        justify-content: space-around;
+    }
+
+    .menu__list__item{
+        display: flex;
+        justify-content: center;
+        margin: 4px 0;
+        width: 30%;
+        margin: 0;
+    }
+
+    .title {
+        width: auto;
+        margin: 3%;
+    }
+
+    .title__div {
+        justify-content: center;
+    }
+    .title__profile {
+        width: 80%;
+        height: 80%;
+    }
+
+    .title__div {
+        flex-wrap: wrap-reverse;
+    }
+
+    .about__container{
+        width: auto;
+        margin: 3%;
+    }
+
+    .skills{
+        margin: 5%;
+        padding: 0;
+        }
+
+    .skills__line{
+        flex-wrap: wrap;
+    }
+
+    .skills__box{
+        width: 30%;
+    }
+
+    .hobbies{
+        margin: 5%;
+        padding: 0;
+        }
+
+    .hobbies__line{
+    flex-wrap:wrap;
+    }
+
+    .hobbies__box{
+        width: 30%;
+        }
+
+
+    .academic{
+        margin: 5%;
+        padding: 0;
+        }
+
+    .academic__courses{
+        padding: 10px
+        }
+
+    .academic__courses__box{
+        width: 28%;
+        }
+
+    .academic__courses__item__title{
+        height: 76px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+
+    .academic__courses__item__subtitle{
+        height: 38px;
+        display: flex;
+        align-items: center;
+        }
+
+    .imagenes__formacion__academia{
+        width: 100%;
+        }
+
+    .formcontato__contacto{
+        margin: 3%;
+        }
+    
+    .formcontato__img{
+        display: none;
+        }
+        
+    .formcontato__contacto{
+        display: ;
+        }
+        
+    .formcontato__text{
+        width: 100%;
+        margin: 15px 0;
+        }
+
+    .footer{
+        margin: 5%;
+        }
+
+
 }
